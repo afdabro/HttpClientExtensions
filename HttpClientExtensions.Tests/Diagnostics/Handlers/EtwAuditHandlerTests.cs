@@ -79,7 +79,7 @@ namespace HttpClientExtensions.Tests.Diagnostics.Handlers
             httpRequestMessage.Headers.Add("RequestTestHeader", "RequestValue");
             var auditHandler = new EtwAuditHandler(true)
             {
-                InnerHandler = new TestHandler((c,r) => {
+                InnerHandler = new TestHandler((r,c) => {
                     return Task.Factory.StartNew(
                             () =>
                             {
@@ -118,7 +118,7 @@ namespace HttpClientExtensions.Tests.Diagnostics.Handlers
             httpRequestMessage.Headers.Add("RequestTestHeader", "RequestValue");
             var auditHandler = new EtwAuditHandler(true)
             {
-                InnerHandler = new TestHandler((c, r) =>
+                InnerHandler = new TestHandler((r, c) =>
                 {
                     return Task.Factory.StartNew(
                             () =>
