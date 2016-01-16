@@ -1,0 +1,1 @@
+Event Tracing for Windows (ETW) has two core components. An `EventSource` enables high performance semantic logging of events. While an `EventListener` allows subscription to events. I have included two listeners which are used for prototyping or testing ETW. For production logging, I use the out of process Azure Diagnostics plugin.
