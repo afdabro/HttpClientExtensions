@@ -1,3 +1,5 @@
+#Diagnostics
+
 Diagnosing, performance tuning, and logging are a part of everyday programming. The windows operating system provides a low-overhead and scalable tracing system named [Event Tracing for Windows (ETW)](https://msdn.microsoft.com/en-us/library/ee517330(v=vs.110).aspx). 
 
 Originally released in .NET 4, Event Tracing for Windows (ETW) has two core components. An `EventSource` enables high performance semantic logging of events. An event may consist of a simple trace message, a performance statistic, or a more complex exception log. While an `EventListener` allows subscription to events. Normally, a production application will not have a need to implement an Event Listener. This is handled by an out of process application. I have included two listeners in the library which are used for prototyping or testing ETW events. For production logging, I use the out of process [Azure Diagnostics plugin](https://azure.microsoft.com/en-us/documentation/articles/cloud-services-dotnet-diagnostics/).
