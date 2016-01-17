@@ -1,9 +1,9 @@
 # Http Client Extension Library
 
-As an IoT developer of Azure microservices, I often find myself extending `HttpClient`. I'm building this library based on my experience of cloud architecture, design patterns, security, testing, and code reuse.
+As an 'Internet of Things' developer using Azure microservices, I often find myself extending `HttpClient`. I'm building this library and documentation based on my experience of cloud architecture, design patterns, security, and testing.
 
-[Diagnostics](https://github.com/afdabro/HttpClientExtensions/blob/master/Docs/Diagnostics.md)
+* [Diagnostics](https://github.com/afdabro/HttpClientExtensions/blob/master/Docs/Diagnostics.md)
  
-[Security](https://github.com/afdabro/HttpClientExtensions/blob/master/Docs/Security.md)
+* [Cloud Security](https://github.com/afdabro/HttpClientExtensions/blob/master/Docs/Security.md)
 
  
