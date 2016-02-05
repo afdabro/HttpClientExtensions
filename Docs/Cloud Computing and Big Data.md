@@ -1,4 +1,4 @@
-#Cloud Computing and Big Data using Microservices
+#Cloud Computing and Big Data architecture with Microservices
 
 As developers, we are constantly learning in order to solve more complex problems. Whether it is a new framework, language, design pattern, or process. I was recently given the following problem to solve:
 
